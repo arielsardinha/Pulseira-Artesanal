@@ -16,6 +16,12 @@ function min_max(){
         btn_min_max.style.left = "130px"
     }
 }
-console.log(txt_checkbox[0].checked)
+for(let i = 0; i < txt_checkbox.length; i ++){
+    console.log(txt_checkbox[i])
+    if(txt_checkbox[i].checked == true){
+        console.log(txt_checkbox[i])
+    }
+}
+
 
 
