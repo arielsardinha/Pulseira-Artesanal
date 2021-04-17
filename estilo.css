@@ -137,3 +137,11 @@ footer img{
 footer figcaption{
     margin: 0 0 5px 0;
 }
+@media(min-width: 410px){
+    header{
+        font-size: 65px;
+    }
+    .body{
+        grid-template-rows:25vh 55px 1fr 15vh ;
+    }
+}
