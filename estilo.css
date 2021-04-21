@@ -37,7 +37,12 @@ aside{
     color: white;
     overflow: hidden;
 }
-aside input{
+.btn_excluir_item{
+    padding: 2px;
+    margin: 9px;
+    cursor: pointer;
+}
+aside .btn_min_max{
     font-size: 25px;
     position: relative;
     right: 10px;
@@ -51,10 +56,23 @@ aside input{
     margin: 30px 0px 0px 0px;
     max-height: 210px;
     background-color: rgba(0, 0, 0, 0.452);
-    border-radius: 4px;  
+    border-radius: 4px;
+    padding: 5px;  
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-around;
+}
+.caixa_itens{
+    display: flex;
+    flex-direction:row;
+    flex-wrap: nowrap;
 }
 aside div p{
     margin: 10px 0;
+}
+aside h1{
+    padding-top: 15px;
 }
 /* CABECALHO */
 header{
